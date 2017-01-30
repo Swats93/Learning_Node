@@ -1,0 +1,32 @@
+{"status":"ok",
+ "source":"techcrunch",
+ "sortBy":"top",
+ "articles":[{"author":"Natasha Lomas",
+              "title":"Apple aims to up its AI smarts with iCloud user data in iOS 10.3",
+              "description":"The next version of Apple's mobile platform will include an opt-in for iOS users to share their iCloud data in order to help the company improve software..",
+              "url":"http://social.techcrunch.com/2017/01/27/apple-aims-to-up-its-ai-smarts-with-icloud-user-data-in-ios-10-3/",
+              "urlToImage":"https://tctechcrunch2011.files.wordpress.com/2016/11/siri.jpg?w=764&h=400&crop=1",
+              "publishedAt":"2017-01-27T14:48:05Z"},
+
+              {"author":"Darrell Etherington",
+              "title":"Trump’s manufacturing council includes Elon Musk, Michael Dell and Mark Fields",
+              "description":"Donald Trump's White House administration has revealed the full membership of its manufacturing council (via Steve Kopack), which he assigned Dow Chemical CEO..",
+              "url":"http://social.techcrunch.com/2017/01/27/trumps-manufacturing-council-includes-elon-musk-michael-dell-and-mark-fields/",
+              "urlToImage":"https://tctechcrunch2011.files.wordpress.com/2017/01/gettyimages-632479774.jpg?w=764&h=400&crop=1",
+              "publishedAt":"2017-01-27T14:29:26Z"},
+
+              {"author":"Matthew Lynley",
+              "title":"Alphabet’s bets beyond search are starting to pay off",
+              "description":"Google reported mixed earnings for its fourth quarter today — but we're starting to see some flashes of improvement in its \"other bets\" category, which is..",
+              "url":"http://social.techcrunch.com/2017/01/26/alphabets-bets-beyond-search-are-starting-to-look-better/",
+              "urlToImage":"https://tctechcrunch2011.files.wordpress.com/2016/07/a3c4057e7d804c79b4bfb3278f4afced.jpg?w=764&h=400&crop=1",
+              "publishedAt":"2017-01-26T20:09:05Z"},
+
+              {"author":"Josh Constine",
+              "title":"This Snapchat Spectacles case melted while charging",
+              "description":"Galaxy Note 7napchat? One owner of Snap Inc's Spectacles camera-glasses had a similar experience. They tell TechCrunch that after charging the Spectacles case..",
+              "url":"http://social.techcrunch.com/2017/01/26/melted-spectacles-case/",
+              "urlToImage":"https://tctechcrunch2011.files.wordpress.com/2017/01/melted-snapchat-case.jpg?w=764&h=400&crop=1",
+              "publishedAt":"2017-01-26T18:44:52Z"}
+            ]
+}
