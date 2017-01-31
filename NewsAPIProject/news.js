@@ -1,25 +1,23 @@
-
 var express = require('express');
 var request = require('request');
 var app = express();
-var a ;
 
-
-//var r = request.get('https://newsapi.org/v1/articles?source=techcrunch&apiKey=b1f49256aae047e5bca8693406f955e3');
-//console.log(r);
-request('https://newsapi.org/v1/articles?source=techcrunch&apiKey=b1f49256aae047e5bca8693406f955e3', function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-    a = body ;
-   // console.log(response)
-  }
-})
-
-
+console.log('running')
 app.get('/path', function(req,res){
-     // res.send(a);
+  request('https://newsapi.org/v1/articles?source=techcrunch&apiKey=b1f49256aae047e5bca8693406f955e3', function (error, response, body) {
 
-   var b = a.articles.prototype.map(function(v) { return { url: v.url, urlToImage: v.urlToImage, description: v.description }; });
+  	console.log(typeof(body))
+	  if (!error && response.statusCode == 200) {
+	    var b = JSON.parse(body).articles.map(function(v) { 
+	    	return { 
+	    		url: v.url, 
+	    		urlToImage: v.urlToImage, 
+	    		description: v.description 
+	    	}; 
+	    });
       console.log(b);
+	  }
+	})
 });
 
 
